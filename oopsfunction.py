@@ -1,5 +1,5 @@
 class Items():
-    category = "genaral"
+    
 
     def __init__(self,name,description,price):
         self.name = name
@@ -15,7 +15,7 @@ print("description:",product1.description)
 print("price:",product1.price)
 print(product1.display())
 product1.category = "it is not comman"
-print("product1 category",product1.category)
+
 
 
 product2 = Items("orange","it is yellow color",70)
@@ -23,4 +23,3 @@ print("Name:",product2.name)
 print("description:",product2.description)
 print("price:",product2.price)
 print(product2.display())
-print("product2 category",product2.category)
